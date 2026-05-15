@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">Locker</string>
+
+    <!-- Common -->
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="show">Show</string>
+    <string name="hide">Hide</string>
+    <string name="show_password">Show password</string>
+    <string name="hide_password">Hide password</string>
+    <string name="password">Password</string>
+
+    <!-- Navigation -->
+    <string name="tab_home">Home</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- Setup Password -->
+    <string name="setup_title">Set Master Password</string>
+    <string name="setup_subtitle">This password will be used to unlock the app</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="set_password_button">Set Password</string>
+    <string name="error_password_empty">Password cannot be empty</string>
+    <string name="error_password_too_short">Password must be at least 4 characters</string>
+    <string name="error_passwords_mismatch">Passwords do not match</string>
+
+    <!-- Login -->
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Enter your master password to unlock</string>
+    <string name="unlock_button">Unlock</string>
+    <string name="use_fingerprint">Use Fingerprint</string>
+    <string name="fingerprint">Fingerprint</string>
+    <string name="biometric_prompt_title">Unlock Locker</string>
+    <string name="biometric_prompt_subtitle">Use your fingerprint to unlock</string>
+    <string name="biometric_negative_button">Use password</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="error_incorrect_password">Incorrect password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="forgot_password_title">Reset App</string>
+    <string name="forgot_password_message">This will delete all local data (credentials, tags, master password) and reset the app.\n\nIf you have a backup, you can restore it after resetting.\n\nThis cannot be undone. Continue?</string>
+    <string name="reset_app">Reset</string>
+    <string name="reset_success">App has been reset</string>
+
+    <!-- Home -->
+    <string name="home_title">Locker</string>
+    <string name="expand_all">Expand all</string>
+    <string name="collapse_all">Collapse all</string>
+    <string name="add_credential">Add credential</string>
+    <string name="empty_state_message">No credentials yet.\nTap [ + NEW ] to add your first one.</string>
+    <string name="view_detail">View detail</string>
+    <string name="tap_to_peek">Tap to quick peek</string>
+    <string name="tap_to_collapse">Tap to collapse</string>
+    <string name="untagged">Untagged</string>
+    <string name="account_format">Account: %s</string>
+    <string name="password_masked">Password: ********</string>
+
+    <!-- Credential Detail -->
+    <string name="detail_title">Detail</string>
+    <string name="title_label">Title</string>
+    <string name="tag_label">Tag</string>
+    <string name="account_label">Account</string>
+    <string name="password_label">Password</string>
+    <string name="description_label">Description</string>
+    <string name="delete_credential_title">Delete Credential</string>
+    <string name="delete_credential_message">Are you sure you want to delete this credential?</string>
+
+    <!-- Credential Edit -->
+    <string name="edit_credential_title">Edit Credential</string>
+    <string name="new_credential_title">New Credential</string>
+    <string name="title_required">Title *</string>
+    <string name="account_required">Account *</string>
+    <string name="password_required">Password *</string>
+    <string name="description_hint">Description</string>
+    <string name="tag_hint">Tag</string>
+    <string name="no_tag">No tag</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="create">Create</string>
+    <string name="error_title_required">Title is required</string>
+    <string name="error_account_required">Account is required</string>
+    <string name="error_password_required">Password is required</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="section_login_method">Login Method</string>
+    <string name="fingerprint_login">Fingerprint Login</string>
+    <string name="fingerprint_login_desc">Use biometric authentication to unlock</string>
+    <string name="section_general">General</string>
+    <string name="tag_management">Tag Management</string>
+    <string name="tag_management_desc">Create, edit, and reorder tags</string>
+    <string name="change_password">Change Password</string>
+    <string name="change_password_desc">Update your master password</string>
+    <string name="google_drive_backup">Backup &amp; Restore</string>
+    <string name="google_drive_backup_desc">Export via email or import from file</string>
+    <string name="section_about">About</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="logout">Logout</string>
+    <string name="logout_title">Logout</string>
+    <string name="logout_message">Are you sure you want to logout?</string>
+    <string name="logout_confirm">Logout</string>
+
+    <!-- Change Password -->
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="change_password_button">Change Password</string>
+    <string name="password_changed_success">Password changed successfully</string>
+    <string name="error_current_password_required">Current password is required</string>
+    <string name="error_new_password_required">New password is required</string>
+    <string name="error_new_password_too_short">New password must be at least 4 characters</string>
+    <string name="error_new_passwords_mismatch">New passwords do not match</string>
+    <string name="error_current_password_incorrect">Current password is incorrect</string>
+
+    <!-- Backup / Restore -->
+    <string name="backup_title">Backup &amp; Restore</string>
+    <string name="restore_data_title">Restore Data</string>
+    <string name="restore_warning">This will replace all local data with the backup. This cannot be undone. Continue?</string>
+    <string name="restore">Restore</string>
+    <string name="backup_email_hint">Backup email address</string>
+    <string name="backup_email_subject">Locker Backup</string>
+    <string name="backup_email_body">Locker backup file is attached. To restore, open the Locker app and use the import function.</string>
+    <string name="export_via_email">Export &amp; Send via Email</string>
+    <string name="import_from_file">Import from File</string>
+    <string name="export_success">Backup file ready to send</string>
+    <string name="export_failed">Export failed: %s</string>
+    <string name="restore_success">Data restored successfully</string>
+    <string name="restore_failed">Restore failed: %s</string>
+    <string name="error_email_empty">Please enter an email address</string>
+    <string name="backup_file_name">locker_backup.json</string>
+    <string name="restore_guide_title">How to Restore</string>
+    <string name="restore_guide_step1">1. Open the email containing the backup</string>
+    <string name="restore_guide_step2">2. Download the attached .json file</string>
+    <string name="restore_guide_step3">3. Tap \"Import from File\" below</string>
+    <string name="restore_guide_step4">4. Select the downloaded backup file</string>
+
+    <!-- Tag Management -->
+    <string name="tag_management_title">Tag Management</string>
+    <string name="rename_tag">Rename tag</string>
+    <string name="new_tag_name">New tag name</string>
+    <string name="add_tag">Add tag</string>
+    <string name="drag_to_reorder">Drag to reorder</string>
+    <string name="no_tags_yet">No tags yet</string>
+    <string name="error_tag_empty">Tag name cannot be empty</string>
+    <string name="error_tag_exists">Tag name already exists</string>
+
+    <!-- Privacy Policy -->
+    <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="privacy_policy_heading">Privacy Policy</string>
+    <string name="privacy_policy_text">\nVersion 1.1\nLast updated: April 15, 2026\n\n1. Data Storage\nAll your credential data is stored locally on your device using an encrypted database. We do not have access to your passwords or any personal information stored within the app.\n\n2. Backup and Restore\nThe app provides a manual backup and restore feature. When you choose to export a backup, your data is converted to a JSON file stored in the device\'s cache directory, then sent as an email attachment. To restore, you select a previously exported backup file from your device to import. The entire backup and restore process is fully user-initiated, and no data is uploaded to any cloud server.\n\n3. Biometric Data\nThe app may use biometric authentication (fingerprint) for login. Biometric data is processed by your device\'s secure hardware and is never stored or transmitted by this app.\n\n4. Data Collection\nThis app does not collect, transmit, or share any personal data with third parties. All data remains on your device unless you explicitly choose to export a backup file via email.\n\n5. Security\nWe use industry-standard security practices including PBKDF2 password hashing and automatic session timeout to protect your data.\n\n6. Contact\nIf you have questions about this privacy policy, please contact the developer.</string>
+</resources>
